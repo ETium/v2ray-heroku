@@ -27,13 +27,13 @@ cat <<-EOF > /etc/v2ray/config.json
           "alterId": 10
         }
       ],
-	    "disableInsecureEncryption": true
+	"disableInsecureEncryption": true
     },
     "streamSettings": {
      "network":"ws",
      "wsSettings":{
-	    "path":"${PATH}"
-	   }
+	"path":"${PATH}"
+	}
     }
    }
   ],
@@ -41,7 +41,7 @@ cat <<-EOF > /etc/v2ray/config.json
   {
     "protocol": "freedom",
     "settings": {}
-  }
+  },
   {
     "protocol": "blackhole",
     "settings": {},
