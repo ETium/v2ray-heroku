@@ -9,7 +9,7 @@ rm -rf /v2ray.zip /usr/bin/v2ray/*.sig /usr/bin/v2ray/doc /usr/bin/v2ray/*.json 
 # V2Ray new configuration
 cat <<-EOF > /etc/v2ray/config.json
 {
- "inbounds": [
+  "inbounds": [
   {
     "sniffing": {
      "enabled": true,
@@ -68,7 +68,7 @@ cat <<-EOF > /etc/v2ray/config.json
    "8.8.4.4",
    "localhost"
   ]
- }
+  }
 }
 EOF
 /usr/bin/v2ray/v2ray -config=/etc/v2ray/config.json
