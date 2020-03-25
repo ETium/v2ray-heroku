@@ -13,10 +13,7 @@ cat <<-EOF > /etc/v2ray/config.json
   {
     "sniffing": {
      "enabled": true,
-     "destOverride": [
-      "http",
-      "tls"
-     ]
+     "destOverride": ["http","tls"]
     },
     "port": ${PORT},
     "protocol": "vmess",
@@ -31,9 +28,7 @@ cat <<-EOF > /etc/v2ray/config.json
     },
     "streamSettings": {
      "network": "ws",
-     "wsSettings": {
-	"path": "/Share/"
-	}
+     "wsSettings": {"path":"/Share/"}
     }
    }
   ],
