@@ -9,7 +9,7 @@
 		},
 		"PATH": {
 			"description": "Websocket Path",
-			"value": "/share"
+			"value": "/"
 		}
 	},
 	"website": "https://ibcl.us/Heroku-V2Ray_20191014/",
